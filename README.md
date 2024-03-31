@@ -165,8 +165,7 @@ Docker Compose.
 
 &nbsp;
 
-&nbsp;
-
+Run.
 <pre>
 
     ❯ docker-compose up
