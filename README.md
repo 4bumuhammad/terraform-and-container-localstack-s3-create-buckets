@@ -643,6 +643,12 @@ Rechecks the bucket list on the localstack where buckets were previously formed.
 
 &nbsp;
 
+<div align="center">
+    <img src="./gambar-petunjuk/well_done.png" alt="well_done" style="display: block; margin: 0 auto;">
+</div> 
+
 &nbsp;
+
+---
 
 &nbsp;
