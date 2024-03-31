@@ -247,7 +247,7 @@ Response [localstack.http]
 
 &nbsp;
 
-**TERRAFORM STAGES :**
+## &#x1F530; TERRAFORM STAGES :
 
 &nbsp;
 
