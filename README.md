@@ -221,54 +221,54 @@ Check.<br />
 </pre>
 Response.
 <pre>
-		HTTP/1.1 200 
-		Content-Type: application/json
-		Content-Length: 889
-		date: Sun, 31 Mar 2024 21:28:21 GMT
-		server: hypercorn-h11
-		Connection: close
-		
-		{
-		  "services": {
-		    "acm": "disabled",
-		    "apigateway": "disabled",
-		    "cloudformation": "disabled",
-		    "cloudwatch": "disabled",
-		    "config": "disabled",
-		    "dynamodb": "disabled",
-		    "dynamodbstreams": "disabled",
-		    "ec2": "disabled",
-		    "es": "disabled",
-		    "events": "disabled",
-		    "firehose": "disabled",
-		    "iam": "disabled",
-		    "kinesis": "disabled",
-		    "kms": "disabled",
-		    "lambda": "available",
-		    "logs": "disabled",
-		    "opensearch": "disabled",
-		    "redshift": "disabled",
-		    "resource-groups": "disabled",
-		    "resourcegroupstaggingapi": "disabled",
-		    "route53": "disabled",
-		    "route53resolver": "disabled",
-		    "s3": "running",
-		    "s3control": "disabled",
-		    "scheduler": "disabled",
-		    "secretsmanager": "disabled",
-		    "ses": "disabled",
-		    "sns": "disabled",
-		    "sqs": "available",
-		    "ssm": "disabled",
-		    "stepfunctions": "disabled",
-		    "sts": "available",
-		    "support": "disabled",
-		    "swf": "disabled",
-		    "transcribe": "disabled"
-		  },
-		  "edition": "community",
-		  "version": "3.2.0"
-		}
+	HTTP/1.1 200 
+	Content-Type: application/json
+	Content-Length: 889
+	date: Sun, 31 Mar 2024 21:28:21 GMT
+	server: hypercorn-h11
+	Connection: close
+	
+	{
+		"services": {
+			"acm": "disabled",
+			"apigateway": "disabled",
+			"cloudformation": "disabled",
+			"cloudwatch": "disabled",
+			"config": "disabled",
+			"dynamodb": "disabled",
+			"dynamodbstreams": "disabled",
+			"ec2": "disabled",
+			"es": "disabled",
+			"events": "disabled",
+			"firehose": "disabled",
+			"iam": "disabled",
+			"kinesis": "disabled",
+			"kms": "disabled",
+			"lambda": "available",
+			"logs": "disabled",
+			"opensearch": "disabled",
+			"redshift": "disabled",
+			"resource-groups": "disabled",
+			"resourcegroupstaggingapi": "disabled",
+			"route53": "disabled",
+			"route53resolver": "disabled",
+			"s3": "running",
+			"s3control": "disabled",
+			"scheduler": "disabled",
+			"secretsmanager": "disabled",
+			"ses": "disabled",
+			"sns": "disabled",
+			"sqs": "available",
+			"ssm": "disabled",
+			"stepfunctions": "disabled",
+			"sts": "available",
+			"support": "disabled",
+			"swf": "disabled",
+			"transcribe": "disabled"
+		},
+		"edition": "community",
+		"version": "3.2.0"
+	}
 </pre>
 
 &nbsp;
