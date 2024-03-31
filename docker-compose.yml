@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+  localstack:
+    image: localstack/localstack:3.2
+    container_name: localstack
+    # network_mode: bridge
+    environment:
+      - DOCKER_HOST=unix:///var/run/docker.sock
+      - EDGE_PORT=4566
+      - SERVICES=lambda,s3
+      - AWS_DEFAULT_REGION=us-east-1
+      - AWS_ACCESS_KEY_ID=FAKE
+      - AWS_SECRET_ACCESS_KEY=FAKE      
+    ports:
+      - "4566:4566"
+    volumes:
+      - ./localstack/localstack_root:/var/lib/localstack  
+      - "/var/run/docker.sock:/var/run/docker.sock"
+networks:
+  default:
+    name: localstack
