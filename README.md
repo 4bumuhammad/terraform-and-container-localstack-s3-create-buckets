@@ -215,32 +215,60 @@ Run.
 &nbsp;
 
 Check.<br />
-Response [localstack.http]
+[localstack.http]
 <pre>
-    HTTP/1.1 200 
-    content-type: application/json
-    content-length: 170
-    access-control-allow-origin: *
-    access-control-allow-methods: HEAD,GET,PUT,POST,DELETE,OPTIONS,PATCH
-    access-control-allow-headers: authorization,content-type,content-length,content-md5,cache-control,x-amz-content-sha256,x-amz-date,x-amz-security-token,x-amz-user-agent,x-amz-target,x-amz-acl,x-amz-version-id,x-localstack-target,x-amz-tagging
-    access-control-expose-headers: x-amz-version-id
-    date: Sat, 30 Mar 2024 17:11:51 GMT
-    server: hypercorn-h11
-    Connection: close
-
-    {
-    "services": {
-        "lambda": "running",
-        "logs": "running",
-        "s3": "running",
-        "cloudwatch": "running"
-    },
-    "features": {
-        "persistence": "initialized",
-        "initScripts": "initialized"
-    }
-    }
-
+    GET http://localhost:4566/_localstack/health HTTP/1.1
+</pre>
+Response.
+<pre>
+		HTTP/1.1 200 
+		Content-Type: application/json
+		Content-Length: 889
+		date: Sun, 31 Mar 2024 21:28:21 GMT
+		server: hypercorn-h11
+		Connection: close
+		
+		{
+		  "services": {
+		    "acm": "disabled",
+		    "apigateway": "disabled",
+		    "cloudformation": "disabled",
+		    "cloudwatch": "disabled",
+		    "config": "disabled",
+		    "dynamodb": "disabled",
+		    "dynamodbstreams": "disabled",
+		    "ec2": "disabled",
+		    "es": "disabled",
+		    "events": "disabled",
+		    "firehose": "disabled",
+		    "iam": "disabled",
+		    "kinesis": "disabled",
+		    "kms": "disabled",
+		    "lambda": "available",
+		    "logs": "disabled",
+		    "opensearch": "disabled",
+		    "redshift": "disabled",
+		    "resource-groups": "disabled",
+		    "resourcegroupstaggingapi": "disabled",
+		    "route53": "disabled",
+		    "route53resolver": "disabled",
+		    "s3": "running",
+		    "s3control": "disabled",
+		    "scheduler": "disabled",
+		    "secretsmanager": "disabled",
+		    "ses": "disabled",
+		    "sns": "disabled",
+		    "sqs": "available",
+		    "ssm": "disabled",
+		    "stepfunctions": "disabled",
+		    "sts": "available",
+		    "support": "disabled",
+		    "swf": "disabled",
+		    "transcribe": "disabled"
+		  },
+		  "edition": "community",
+		  "version": "3.2.0"
+		}
 </pre>
 
 &nbsp;
