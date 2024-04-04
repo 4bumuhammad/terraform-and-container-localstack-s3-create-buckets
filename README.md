@@ -103,6 +103,12 @@ Container building software.
 
 &nbsp;
 
+<div align="center">
+    <img src="./gambar-petunjuk/ss_terraform_logo.png" alt="ss_terraform_logo" style="display: block; margin: 0 auto;">
+</div> 
+
+&nbsp;
+
 **&#x1F536; Reference :**<br />
 
 <pre>
